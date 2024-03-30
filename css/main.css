@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Madimi+One&family=Pattaya&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.intro .right-hover, .intro .left-hover {
+  padding-top: 30vh;
+  text-align: center;
+  width: 40vw;
+  background: #000;
+  position: absolute;
+  color: #fff;
+  height: 53vw;
+  opacity: 0; }
+  .intro .right-hover:hover, .intro .left-hover:hover {
+    opacity: 0.5;
+    cursor: pointer; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+body {
+  font-family: sans-serif; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  min-height: 10vw; }
+  header a {
+    margin-top: 1.2rem;
+    font-size: 1.2rem; }
+  header h1 {
+    margin: 1.2rem;
+    font-family: "Anton", sans-serif;
+    font-weight: 800;
+    font-style: normal; }
+  header ul {
+    display: flex;
+    justify-content: space-around;
+    min-height: 10vh; }
+    header ul li {
+      list-style: none;
+      margin: 1.2rem; }
+
+.hero {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto; }
+  .hero h1 {
+    font-family: serif;
+    text-align: center;
+    margin: 2rem; }
+  .hero p {
+    text-align: center;
+    width: 50vh; }
+  .hero .chiziq {
+    border: 1px solid;
+    width: 70vw;
+    margin: 2rem; }
+
+.intro {
+  height: 30vh;
+  margin: auto; }
+  .intro .intro1 {
+    display: flex;
+    flex: 1 1 20vw;
+    flex-wrap: wrap; }
+    .intro .intro1 .img-left {
+      width: 40vw;
+      position: cover;
+      margin: 2rem; }
+      .intro .intro1 .img-left img {
+        width: 100%; }
+  .intro .img-right {
+    width: 40vw;
+    margin: 2rem; }
+    .intro .img-right img {
+      width: 100%; }
+  .intro .left-hover {
+    margin: 2rem; }
+
+footer {
+  background: #000; }
+
+/*# sourceMappingURL=main.css.map */
